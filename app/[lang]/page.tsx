@@ -1,3 +1,4 @@
+import HeaderSection from '@/app/_components/HeaderSection/HeaderSection'
 import { getDictionary } from './dictionaries'
 
 export async function generateStaticParams() {
@@ -13,8 +14,9 @@ export default async function Home({ params }: Readonly<HomeType>) {
   const dict = await getDictionary(lang)
 
   return (
-    <div>
-      <main className="container mx-auto">
+    <div className='site-container'>
+      <HeaderSection dict={dict} />
+      <main>
         <p>صفحه اصلی</p>
         <div>{lang}</div>
         <div>{dict.products.cart}</div>

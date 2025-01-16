@@ -28,3 +28,8 @@ body {
   background: var(--background);
   font-family: Vazirmatn, Arial, Helvetica, sans-serif;
 }
+
+.site-container {
+  margin: 0 auto;
+  max-width: 1218px;
+}

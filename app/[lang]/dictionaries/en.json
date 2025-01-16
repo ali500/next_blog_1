@@ -1,5 +1,13 @@
 {
   "products": {
     "cart": "Add to Cart"
+  },
+  "header": {
+    "home": "Home",
+    "blog": "Blog",
+    "single_post": "Single Post",
+    "pages": "Pages",
+    "contact": "Contact",
+    "search": "Search"
   }
 }
