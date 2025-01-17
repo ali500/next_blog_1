@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { getDictionary } from './dictionaries'
+import HeaderSection from '@/app/_components/HeaderSection/HeaderSection'
 import '@/app/globals.css'
 
 export async function generateStaticParams() {
@@ -20,6 +22,7 @@ export default async function RootLayout({
   params,
 }: Readonly<RootLayoutType>) {
   const { lang } = await params
+  const dict = await getDictionary(lang)
   let dir: string = 'rtl'
 
   if (lang == 'en') {
@@ -28,7 +31,12 @@ export default async function RootLayout({
 
   return (
     <html dir={dir} lang={lang}>
-      <body>{children}</body>
+      <body>
+        <div className="site-container">
+          <HeaderSection dict={dict} />
+          <main>{children}</main>
+        </div>
+      </body>
     </html>
   )
 }
