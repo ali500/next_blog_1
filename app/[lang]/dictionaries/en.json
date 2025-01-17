@@ -9,5 +9,11 @@
     "pages": "Pages",
     "contact": "Contact",
     "search": "Search"
+  },
+  "hero_card": {
+    "tag": "Technology",
+    "description": "The Impact of Technology on the Workplace: How Technology is Changing",
+    "author_name": "first and last name",
+    "date": "January 17, 2025"
   }
 }

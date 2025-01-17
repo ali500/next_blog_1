@@ -1,5 +1,53 @@
 .hero_section {
-    height: 400px;
-    background: #d8d8d8;
-    border-radius: 12px;
+  position: relative;
+  height: 400px;
+  background: #d8d8d8;
+  border-radius: 12px;
+}
+
+.hero_card {
+  position: absolute;
+  padding: 2.5rem;
+  border-radius: 12px;
+  bottom: -20px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 598px;
+  background-color: white;
+  box-shadow: 0 12px 24px -6px rgba(24, 26, 42, 0.12);
+}
+
+.hero_card__tag {
+  display: inline-block;
+  padding: 0.25rem;
+  border-radius: 6px;
+  background-color: #4b6bfb;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.hero_card__description {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.hero_card__bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.hero_card__bottom__author_image {
+  background-color: #4b6bfb;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.hero_card__bottom__author_name {
+}
+
+.hero_card__bottom__date {
 }

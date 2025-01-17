@@ -1,4 +1,9 @@
 import HeroSection from '@/app/_components/HeroSection/HeroSection'
+import { getDictionary } from './dictionaries'
+
+export async function generateStaticParams() {
+  return [{ lang: 'en' }, { lang: 'fa' }]
+}
 
 interface HomeType {
   params: Promise<{ lang: 'en' | 'fa' }>
@@ -6,10 +11,11 @@ interface HomeType {
 
 export default async function Home({ params }: Readonly<HomeType>) {
   const { lang } = await params
+  const dict = await getDictionary(lang)
 
   return (
     <div>
-      <HeroSection />
+      <HeroSection dict={dict} />
       <div>
         <p>صفحه اصلی</p>
         <div>{lang}</div>
