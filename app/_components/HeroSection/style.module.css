@@ -1,7 +1,12 @@
 .hero_section {
   position: relative;
-  height: 400px;
-  background: #d8d8d8;
+  height: 300px;
+  background-color: #d8d8d8;
+  background-image: url('/images/empty-room-with-chairs-desks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* test */
+  background-position: 0px -300px;
   border-radius: 12px;
 }
 
@@ -9,10 +14,10 @@
   position: absolute;
   padding: 2.5rem;
   border-radius: 12px;
-  bottom: -20px;
+  bottom: -120px;
   right: 50%;
   transform: translateX(50%);
-  width: 598px;
+  width: 400px;
   background-color: white;
   box-shadow: 0 12px 24px -6px rgba(24, 26, 42, 0.12);
 }
@@ -30,7 +35,7 @@
 .hero_card__description {
   margin-top: 16px;
   margin-bottom: 24px;
-  font-size: 2.25rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 

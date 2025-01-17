@@ -1,0 +1,10 @@
+.advertisement_section {
+  margin: 200px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8ea;
+  border-radius: 12px;
+  width: 750px;
+  height: 100px;
+}
