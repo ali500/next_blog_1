@@ -17,9 +17,45 @@
     "author_name": "first and last name",
     "date": "January 17, 2025"
   },
+  "title_of_card_list_container": "Latest Posts",
   "card_list": [
     {
       "id": 1,
+      "tag": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "author_name": "first and last name",
+      "date": "January 17, 2025"
+    },
+    {
+      "id": 2,
+      "tag": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "author_name": "first and last name",
+      "date": "January 17, 2025"
+    },
+    {
+      "id": 3,
+      "tag": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "author_name": "first and last name",
+      "date": "January 17, 2025"
+    },
+    {
+      "id": 4,
+      "tag": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "author_name": "first and last name",
+      "date": "January 17, 2025"
+    },
+    {
+      "id": 5,
+      "tag": "Technology",
+      "title": "The Impact of Technology on the Workplace: How Technology is Changing",
+      "author_name": "first and last name",
+      "date": "January 17, 2025"
+    },
+    {
+      "id": 6,
       "tag": "Technology",
       "title": "The Impact of Technology on the Workplace: How Technology is Changing",
       "author_name": "first and last name",

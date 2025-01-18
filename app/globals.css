@@ -11,6 +11,17 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/WorkSans-VariableFont_wght.ttf') format('woff2 supports variations'),
+       url('/fonts/WorkSans-VariableFont_wght.ttf') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -26,7 +37,14 @@
 body {
   color: var(--foreground);
   background: var(--background);
+}
+
+html[lang="fa"] body {
   font-family: Vazirmatn, Arial, Helvetica, sans-serif;
+}
+
+html[lang="en"] body {
+  font-family: WorkSans, Arial, Helvetica, sans-serif;
 }
 
 .site-container {

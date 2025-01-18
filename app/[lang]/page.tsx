@@ -19,7 +19,8 @@ export default async function Home({ params }: Readonly<HomeType>) {
     <div>
       <HeroSection dict={dict} />
       <AdvertisementSection />
-      <SectionContainer dict={dict} />
+      <SectionContainer dict={dict} hasTitle={true} />
+      <AdvertisementSection />
       <div>
         <p>صفحه اصلی</p>
         <div>{lang}</div>

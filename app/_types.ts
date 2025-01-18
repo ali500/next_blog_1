@@ -19,7 +19,9 @@ export interface CardListType {
 }
 
 export interface SectionContainerType {
+  hasTitle: boolean
   dict: {
+    title_of_card_list_container: string
     card_list: CardListType[]
   }
 }

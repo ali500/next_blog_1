@@ -3,7 +3,7 @@ import styles from './style.module.css'
 import { SectionContainerType } from '@/app/_types'
 
 export default function SectionContainer({
-  dict,
+  dict, hasTitle
 }: Readonly<SectionContainerType>) {
   const cardList = dict.card_list.map((card) => (
     <div key={card.id} className={styles.card}>
@@ -24,12 +24,20 @@ export default function SectionContainer({
         <div className={styles.card__bottom__author_name}>
           {card.author_name}
         </div>
-        <div className={styles.card__bottom__date}>
-          {card.date}
-        </div>
+        <div className={styles.card__bottom__date}>{card.date}</div>
       </div>
     </div>
   ))
 
-  return <div className={styles.card_container}>{cardList}</div>
+  let containerTitle = null
+  if (hasTitle == true)
+    containerTitle = <div className={styles.title_of_card_list_container}>{dict.title_of_card_list_container}</div>
+
+  return (
+    <>
+      {containerTitle}
+      <div className={styles.card_container}>{cardList}</div>
+      <button className={styles.view_all_button} type="button">View All Post</button>
+    </>
+  )
 }

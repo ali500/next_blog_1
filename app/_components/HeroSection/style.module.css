@@ -1,4 +1,5 @@
 .hero_section {
+  margin-bottom: 200px;
   position: relative;
   height: 300px;
   background-color: #d8d8d8;
@@ -17,7 +18,7 @@
   bottom: -120px;
   right: 50%;
   transform: translateX(50%);
-  width: 400px;
+  width: 420px;
   background-color: white;
   box-shadow: 0 12px 24px -6px rgba(24, 26, 42, 0.12);
 }
