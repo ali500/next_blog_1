@@ -1,5 +1,6 @@
 import HeroSection from '@/app/_components/HeroSection/HeroSection'
 import AdvertisementSection from '@/app/_components/AdvertisementSection/AdvertisementSection'
+import SectionContainer from '@/app/_components/SectionContainer/SectionContainer'
 import { getDictionary } from './dictionaries'
 
 export async function generateStaticParams() {
@@ -18,6 +19,7 @@ export default async function Home({ params }: Readonly<HomeType>) {
     <div>
       <HeroSection dict={dict} />
       <AdvertisementSection />
+      <SectionContainer dict={dict} />
       <div>
         <p>صفحه اصلی</p>
         <div>{lang}</div>

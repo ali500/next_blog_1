@@ -32,9 +32,9 @@
   font-weight: 500;
 }
 
-.hero_card__description {
-  margin-top: 16px;
-  margin-bottom: 24px;
+.hero_card__title {
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
   font-size: 1.25rem;
   font-weight: 600;
 }
@@ -52,7 +52,9 @@
 }
 
 .hero_card__bottom__author_name {
+  color: #97989f;
 }
 
 .hero_card__bottom__date {
+  color: #97989f;
 }

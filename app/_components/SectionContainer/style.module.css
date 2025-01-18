@@ -1,0 +1,56 @@
+.card_container {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #e8e8ea;
+  border-radius: 12px;
+}
+
+.card__tag {
+  margin-top: 24px;
+  display: inline-block;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 4px 10px;
+  color: #4b6bfb;
+  background-color: rgba(75, 107, 251, 0.05);
+}
+
+.card__title {
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  color: #181a2a;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.card__bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.card__bottom__author_image {
+  background-color: #4b6bfb;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.card__bottom__author_name {
+  color: #97989f;
+}
+
+.card__bottom__date {
+  color: #97989f;
+}
