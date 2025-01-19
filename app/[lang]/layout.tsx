@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { getDictionary } from './dictionaries'
 import HeaderSection from '@/app/_components/HeaderSection/HeaderSection'
+import FooterSection from '@/app/_components/FooterSection/FooterSection'
 import '@/app/globals.css'
 
 export async function generateStaticParams() {
@@ -36,6 +37,7 @@ export default async function RootLayout({
           <HeaderSection dict={dict} />
           <main>{children}</main>
         </div>
+        <FooterSection dict={dict} />
       </body>
     </html>
   )

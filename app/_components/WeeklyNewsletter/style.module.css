@@ -1,0 +1,55 @@
+.weekly_news_letter_card {
+  padding: 32px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.weekly_news_letter_title {
+  margin-bottom: 8px;
+  color: #181a2a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.weekly_news_letter_description {
+  color: #696a75;
+  text-align: center;
+}
+
+.weekly_news_top {
+  margin-bottom: 30px;
+}
+
+.weekly_news_bottom {
+}
+
+.subscribe_button {
+  margin-top: 8px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: white;
+  background-color: #4b6bfb;
+}
+
+.email_input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #dcdddf;
+}
+
+.email_input input {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+}
+
+.email_input:focus-within {
+  border-color: #a8a3e7;
+}

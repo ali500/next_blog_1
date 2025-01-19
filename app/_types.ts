@@ -10,6 +10,14 @@ export interface HeroSectionType {
   }
 }
 
+export interface FooterSectionType {
+  dict: object
+}
+
+export interface WeeklyNewsletterType {
+  dict: object
+}
+
 export interface CardListType {
   id: number
   tag: string
