@@ -4,6 +4,10 @@
   border-radius: 12px;
 }
 
+html[lang='en'] .weekly_news_letter_card {
+  font-family: WorkSans;
+}
+
 .weekly_news_letter_title {
   margin-bottom: 8px;
   color: #181a2a;
