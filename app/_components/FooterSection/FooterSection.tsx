@@ -107,7 +107,7 @@ export default function FooterSection({ dict }: Readonly<FooterSectionType>) {
           <div className={styles.footer__bottom__column_1}>
             <div>Logo</div>
             <div className='space-y-1'>
-              <div>MetaBlog</div>
+              <div>Meta<span className='font-semibold'>Blog</span></div>
               <div>© All Right Reserved.</div>
             </div>
           </div>
