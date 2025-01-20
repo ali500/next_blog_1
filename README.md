@@ -1,3 +1,9 @@
+This program has used the metablog design to some extent
+
+The address of this design in Figma:
+
+https://www.figma.com/community/file/1216616090937021365/free-blog-template-modern-creative-design
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
