@@ -21,6 +21,9 @@ html[lang='en'] .footer {
 }
 
 .footer__bottom__column_1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .footer__bottom__column_2 {

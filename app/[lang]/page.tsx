@@ -21,10 +21,6 @@ export default async function Home({ params }: Readonly<HomeType>) {
       <AdvertisementSection />
       <SectionContainer dict={dict} hasTitle={true} />
       <AdvertisementSection />
-      <div>
-        <p>صفحه اصلی</p>
-        <div>{lang}</div>
-      </div>
     </div>
   )
 }
