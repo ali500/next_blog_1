@@ -1,7 +1,5 @@
 {
-  "products": {
-    "cart": "افزودن به سبد خرید"
-  },
+  "advertisement": "تبلیغات",
   "header": {
     "home": "خانه",
     "blog": "وبلاگ",
@@ -61,5 +59,44 @@
       "author_name": "نام و نام خانوادگی",
       "date": "۲۸ دی ۱۴۰۳"
     }
-  ]
+  ],
+  "view_all_post": "دیدن همه مقالات",
+  "footer": {
+    "about_section": {
+      "about": "درباره ما",
+      "text": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.",
+      "email": "رایانامه:",
+      "email_address": "test@test.com",
+      "phone": "شماره موبایل:",
+      "phone_number": "۰۹xxxxxxxxx"
+    },
+    "quick_link_section": {
+      "quick_link": "دسترسی فوری",
+      "home": "خانه",
+      "about": "درباره ما",
+      "blog": "وبلاگ",
+      "archived": "بخش بایگانی",
+      "author": "نویسنده",
+      "contact": "تماس با ما"
+    },
+    "category_section": {
+      "category": "دسته‌بندی",
+      "lifestyle": "سبک زندگی",
+      "technology": "فناوری",
+      "travel": "سیر و سفر",
+      "business": "بازرگانی",
+      "economy": "اقتصادی",
+      "sports": "ورزشی"
+    },
+    "weekly_newsletter_section": {
+      "title": "هفته‌نامه",
+      "description": "مقالات پیشنهادی را از طریق رایانامه دریافت کنید.",
+      "email_placeholder": "رایانامه شما",
+      "button_label": "مشترک شوید"
+    },
+    "terms_of_use": "شرایط استفاده",
+    "privacy_policy": "حریم خصوصی و امنیت",
+    "cookie_policy": "خط‌مشی کوکی‌ها",
+    "copywrite_text": "© تمام حقوق محفوظ است."
+  }
 }

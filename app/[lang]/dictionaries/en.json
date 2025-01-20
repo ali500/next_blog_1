@@ -1,7 +1,5 @@
 {
-  "products": {
-    "cart": "Add to Cart"
-  },
+  "advertisement": "Advertisement",
   "header": {
     "home": "Home",
     "blog": "Blog",
@@ -61,5 +59,44 @@
       "author_name": "first and last name",
       "date": "January 17, 2025"
     }
-  ]
+  ],
+  "view_all_post": "View All Post",
+  "footer": {
+    "about_section": {
+      "about": "About",
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quasi asperiores eius vitae ratione facilis dolorum ab nemo consequatur. Accusantium facere eius eum nam officia? Sint, voluptatem veritatis. Illo, minus.",
+      "email": "Email:",
+      "email_address": "test@test.com",
+      "phone": "Phone:",
+      "phone_number": "09xxxxxxxxx"
+    },
+    "quick_link_section": {
+      "quick_link": "Quick Link",
+      "home": "Home",
+      "about": "About",
+      "blog": "Blog",
+      "archived": "Archived",
+      "author": "Author",
+      "contact": "Contact"
+    },
+    "category_section": {
+      "category": "Category",
+      "lifestyle": "Lifestyle",
+      "technology": "Technology",
+      "travel": "Travel",
+      "business": "Business",
+      "economy": "Economy",
+      "sports": "Sports"
+    },
+    "weekly_newsletter_section": {
+      "title": "Weekly Newsletter",
+      "description": "Get blog articles and offers via email",
+      "email_placeholder": "Your Email",
+      "button_label": "Subscribe"
+    },
+    "terms_of_use": "Terms of Use",
+    "privacy_policy": "Privacy Policy",
+    "cookie_policy": "Cookie Policy",
+    "copywrite_text": "© All Right Reserved."
+  }
 }

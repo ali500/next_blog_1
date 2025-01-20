@@ -10,12 +10,55 @@ export interface HeroSectionType {
   }
 }
 
+export interface AdvertisementSectionType {
+  dict: {
+    advertisement: string
+  }
+}
+
 export interface FooterSectionType {
-  dict: object
+  dict: {
+    footer: {
+      about_section: {
+        about: string
+        text: string
+        email: string
+        email_address: string
+        phone: string
+        phone_number: string
+      }
+      quick_link_section: {
+        quick_link: string
+        home: string
+        about: string
+        blog: string
+        archived: string
+        author: string
+        contact: string
+      }
+      category_section: {
+        category: string
+        lifestyle: string
+        technology: string
+        travel: string
+        business: string
+        economy: string
+        sports: string
+      }
+      weekly_newsletter_section: WeeklyNewsletterType
+      terms_of_use: string
+      privacy_policy: string
+      cookie_policy: string
+      copywrite_text: string
+    }
+  }
 }
 
 export interface WeeklyNewsletterType {
-  dict: object
+  title: string
+  description: string
+  email_placeholder: string
+  button_label: string
 }
 
 export interface CardListType {
@@ -31,5 +74,6 @@ export interface SectionContainerType {
   dict: {
     title_of_card_list_container: string
     card_list: CardListType[]
+    view_all_post: string
   }
 }
