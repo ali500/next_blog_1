@@ -32,6 +32,9 @@
 :root, [data-theme="light"] {
   --background: #ffffff;
   --foreground: #171717;
+  --search-background-color: #f4f4f5;
+  --search-border-color: #e7e7e7;
+  --header-link-color: #3b3c4a;
 }
 
 [data-theme="dark"] {
