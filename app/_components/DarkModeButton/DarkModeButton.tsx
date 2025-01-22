@@ -5,8 +5,6 @@ export default function DarkModeButton() {
   let isOn: boolean = false
 
   const handleButton = (): void => {
-    console.log('run')
-
     if (!isOn) {
       document.documentElement.setAttribute('data-theme', 'dark')
       isOn = true
