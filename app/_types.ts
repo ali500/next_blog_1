@@ -1,3 +1,16 @@
+export interface HeaderSectionType {
+  dict: {
+    header: {
+      home: string
+      blog: string
+      single_post: string
+      pages: string
+      contact: string
+      search: string
+    }
+  }
+}
+
 export interface HeroSectionType {
   dict: {
     hero_card: {

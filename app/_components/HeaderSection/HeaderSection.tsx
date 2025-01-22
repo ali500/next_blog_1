@@ -1,18 +1,6 @@
 import Link from 'next/link'
 import styles from './style.module.css'
-
-interface HeaderSectionType {
-  dict: {
-    header: {
-      home: string
-      blog: string
-      single_post: string
-      pages: string
-      contact: string
-      search: string
-    }
-  }
-}
+import { HeaderSectionType } from '@/app/_types'
 
 export default async function HeaderSection({
   dict,
