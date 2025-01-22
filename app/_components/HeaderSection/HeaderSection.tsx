@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from './style.module.css'
 import { HeaderSectionType } from '@/app/_types'
+import DarkModeButton from '@/app/_components/DarkModeButton/DarkModeButton'
 
 export default async function HeaderSection({
   dict,
@@ -50,10 +51,7 @@ export default async function HeaderSection({
           </div>
         </div>
         <div>
-          <label className={styles.switch}>
-            <input type="checkbox" />
-            <span className={styles.slider + ' ' + styles.round}></span>
-          </label>
+          <DarkModeButton />
         </div>
       </div>
     </header>

@@ -31,7 +31,7 @@ export default async function RootLayout({
   }
 
   return (
-    <html dir={dir} lang={lang}>
+    <html dir={dir} lang={lang} data-theme="light">
       <body>
         <div className="site-container">
           <HeaderSection dict={dict} />
