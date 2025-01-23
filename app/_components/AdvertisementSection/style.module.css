@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e8e8ea;
+  color: var(--advertisement-color);
+  background-color: var(--advertisement-background-color);
   border-radius: 12px;
   width: 750px;
   height: 100px;

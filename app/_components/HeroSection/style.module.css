@@ -2,7 +2,7 @@
   margin-bottom: 200px;
   position: relative;
   height: 300px;
-  background-color: #d8d8d8;
+  background-color: var(--hero-section-background-color);
   background-image: url('/images/empty-room-with-chairs-desks.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,7 +19,8 @@
   right: 50%;
   transform: translateX(50%);
   width: 420px;
-  background-color: white;
+  background-color: var(--card-background-color);
+  border: 1px solid var(--card-border-color);
   box-shadow: 0 12px 24px -6px rgba(24, 26, 42, 0.12);
 }
 
@@ -27,13 +28,14 @@
   display: inline-block;
   padding: 0.25rem;
   border-radius: 6px;
-  background-color: #4b6bfb;
-  color: white;
+  background-color: var(--hero-card-tag-background-color);
+  color: var(--hero-card-tag-color);
   font-size: 0.75rem;
   font-weight: 500;
 }
 
 .hero_card__title {
+  color: var(--card-color);
   margin-top: 1rem;
   margin-bottom: 1.25rem;
   font-size: 1.25rem;
@@ -46,16 +48,16 @@
 }
 
 .hero_card__bottom__author_image {
-  background-color: #4b6bfb;
+  background-color: var(--card-author-image-background-color);
   width: 20px;
   height: 20px;
   border-radius: 50%;
 }
 
 .hero_card__bottom__author_name {
-  color: #97989f;
+  color: var(--card-author-name-and-date-color);
 }
 
 .hero_card__bottom__date {
-  color: #97989f;
+  color: var(--card-author-name-and-date-color);
 }

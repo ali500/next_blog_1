@@ -1,6 +1,6 @@
 .title_of_card_list_container {
   margin-top: 5rem;
-  color: #181a2a;
+  color: var(--card-list-title);
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -14,7 +14,7 @@
 
 .card {
   padding: 1rem;
-  border: 1px solid #e8e8ea;
+  border: 1px solid var(--card-border-color);
   border-radius: 12px;
 }
 
@@ -24,14 +24,14 @@
   font-weight: 500;
   border-radius: 6px;
   padding: 4px 10px;
-  color: #4b6bfb;
-  background-color: rgba(75, 107, 251, 0.05);
+  color: var(--card-tag-color);
+  background-color: var(--card-tag-background-color);
 }
 
 .card__title {
   margin-top: 1rem;
   margin-bottom: 1.25rem;
-  color: #181a2a;
+  color: var(--card-color);
   font-weight: 600;
   font-size: 1.25rem;
 }
@@ -48,25 +48,25 @@
 }
 
 .card__bottom__author_image {
-  background-color: #4b6bfb;
+  background-color: var(--card-author-image-background-color);
   width: 20px;
   height: 20px;
   border-radius: 50%;
 }
 
 .card__bottom__author_name {
-  color: #97989f;
+  color: var(--card-author-name-and-date-color);
 }
 
 .card__bottom__date {
-  color: #97989f;
+  color: var(--card-author-name-and-date-color);
 }
 
 .view_all_button {
   display: block;
   margin: 2rem auto 0 auto;
-  color: #696a75;
-  border: 1px solid rgba(105, 106, 117, 0.3);
+  color: var(--view-all-button-color);
+  border: 1px solid var(--view-all-button-border-color);
   border-radius: 6px;
   padding: 0.75rem 1.25rem;
 }

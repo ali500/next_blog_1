@@ -1,6 +1,6 @@
 .weekly_news_letter_card {
   padding: 32px;
-  background-color: white;
+  background-color: var(--weekly-news-background-color);
   border-radius: 12px;
 }
 
@@ -10,14 +10,14 @@ html[lang='en'] .weekly_news_letter_card {
 
 .weekly_news_letter_title {
   margin-bottom: 8px;
-  color: #181a2a;
+  color: var( --weekly-news-title-color);
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }
 
 .weekly_news_letter_description {
-  color: #696a75;
+  color: var(--weekly-news-description-color);
   text-align: center;
 }
 
@@ -34,8 +34,8 @@ html[lang='en'] .weekly_news_letter_card {
   padding: 8px;
   border-radius: 6px;
   font-weight: 500;
-  color: white;
-  background-color: #4b6bfb;
+  color: var(--weekly-news-subscribe-button-color);
+  background-color: var(--weekly-news-subscribe-button-background-color);
 }
 
 .email_input {
@@ -44,7 +44,8 @@ html[lang='en'] .weekly_news_letter_card {
   gap: 1rem;
   border-radius: 5px;
   padding: 0.5rem 1rem;
-  border: 1px solid #dcdddf;
+  background-color: var(--weekly-news-email-input-background-color);
+  border: 1px solid var(--weekly-news-email-input-border-color);
 }
 
 .email_input input {
@@ -55,5 +56,5 @@ html[lang='en'] .weekly_news_letter_card {
 }
 
 .email_input:focus-within {
-  border-color: #a8a3e7;
+  border-color: var(--weekly-news-email-input-border-color-focus);
 }

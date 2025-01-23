@@ -5,7 +5,7 @@
 @font-face {
   font-family: 'Vazirmatn';
   src: url('/fonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
-       url('/fonts/Vazirmatn[wght].woff2') format('woff2-variations');
+    url('/fonts/Vazirmatn[wght].woff2') format('woff2-variations');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -13,8 +13,9 @@
 
 @font-face {
   font-family: 'WorkSans';
-  src: url('/fonts/WorkSans-VariableFont_wght.ttf') format('woff2 supports variations'),
-       url('/fonts/WorkSans-VariableFont_wght.ttf') format('woff2-variations');
+  src: url('/fonts/WorkSans-VariableFont_wght.ttf')
+      format('woff2 supports variations'),
+    url('/fonts/WorkSans-VariableFont_wght.ttf') format('woff2-variations');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -22,23 +23,88 @@
 
 @font-face {
   font-family: 'PlusJakartaSans';
-  src: url('/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('woff2 supports variations'),
-       url('/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('woff2-variations');
+  src: url('/fonts/PlusJakartaSans-VariableFont_wght.ttf')
+      format('woff2 supports variations'),
+    url('/fonts/PlusJakartaSans-VariableFont_wght.ttf')
+      format('woff2-variations');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 
-:root, [data-theme="light"] {
+:root,
+[data-theme='light'] {
   --background: #ffffff;
   --foreground: #171717;
   --search-background-color: #f4f4f5;
   --search-border-color: #e7e7e7;
   --header-link-color: #3b3c4a;
+  --hero-section-background-color: #d8d8d8;
+  --card-border-color: #e8e8ea;
+  --card-background-color: #ffffff;
+  --hero-card-tag-background-color: #4b6bfb;
+  --hero-card-tag-color: #ffffff;
+  --card-author-image-background-color: #4b6bfb;
+  --card-author-name-and-date-color: #97989f;
+  --card-list-title: #181a2a;
+  --card-tag-background-color: rgba(75, 107, 251, 0.05);
+  --card-tag-color: #4b6bfb;
+  --card-color: #181a2a;
+  --view-all-button-color: #696a75;
+  --view-all-button-border-color: rgba(105, 106, 117, 0.3);
+  --advertisement-color: #696a75;
+  --advertisement-background-color: #e8e8ea;
+  --footer-background-color: #f6f6f7;
+  --footer-border-color: #e8e8ea;
+  --footer-bottom-border-top-color: #dcdddf;
+  --footer-title-color: #181a2a;
+  --footer-link-and-text-color: #3b3c4a;
+  --footer-about-text-color: #696a75;
+  --weekly-news-background-color: #ffffff;
+  --weekly-news-title-color: #181a2a;
+  --weekly-news-description-color: #696a75;
+  --weekly-news-email-input-background-color: #ffffff;
+  --weekly-news-email-input-border-color: #dcdddf;
+  --weekly-news-email-input-border-color-focus: #a8a3e7;
+  --weekly-news-subscribe-button-color: #ffffff;
+  --weekly-news-subscribe-button-background-color: #4b6bfb;
 }
 
-[data-theme="dark"] {
-  --background: #202020;
+[data-theme='dark'] {
+  --background: #181a2a;
+  --foreground: #ffffff;
+  --search-background-color: #242535;
+  --search-border-color: #343549;
+  --header-link-color: #ffffff;
+  --hero-section-background-color: #d8d8d8;
+  --card-border-color: #242535;
+  --card-background-color: #181a2a;
+  --hero-card-tag-background-color: #4b6bfb;
+  --hero-card-tag-color: #ffffff;
+  --card-author-image-background-color: #4b6bfb;
+  --card-author-name-and-date-color: #97989f;
+  --card-list-title: #ffffff;
+  --card-tag-background-color: rgba(75, 107, 251, 0.05);
+  --card-tag-color: #4b6bfb;
+  --card-color: #ffffff;
+  --view-all-button-color: #696a75;
+  --view-all-button-border-color: rgba(105, 106, 117, 0.3);
+  --advertisement-color: #696a75;
+  --advertisement-background-color: #242535;
+  --footer-background-color: #141624;
+  --footer-border-color: #242535;
+  --footer-bottom-border-top-color: #242535;
+  --footer-title-color: #ffffff;
+  --footer-link-and-text-color: #bababf;
+  --footer-about-text-color: #97989f;
+  --weekly-news-background-color: #242535;
+  --weekly-news-title-color: #ffffff;
+  --weekly-news-description-color: #97989f;
+  --weekly-news-email-input-background-color: #181a2a;
+  --weekly-news-email-input-border-color: #3b3c4a;
+  --weekly-news-email-input-border-color-focus: #4f505e;
+  --weekly-news-subscribe-button-color: #ffffff;
+  --weekly-news-subscribe-button-background-color: #4b6bfb;
 }
 
 body {
@@ -46,11 +112,11 @@ body {
   background: var(--background);
 }
 
-html[lang="fa"] body {
+html[lang='fa'] body {
   font-family: Vazirmatn, Arial, Helvetica, sans-serif;
 }
 
-html[lang="en"] body {
+html[lang='en'] body {
   font-family: WorkSans, Arial, Helvetica, sans-serif;
 }
 
